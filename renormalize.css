@@ -146,7 +146,8 @@ dd {
 nav ul,
 nav ol {
   list-style: none;
-  list-style-image: none; }
+  list-style-image: none;
+  padding: 0; }
  
 img {
   border: 0;
@@ -173,11 +174,14 @@ button,
 input,
 select,
 textarea {
-  *vertical-align: middle; }
+  *vertical-align: middle;
+  outline: none; }
  
 button,
 input {
   line-height: normal; }
+ 
+
  
 button,
 input[type="button"],
